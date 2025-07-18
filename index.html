@@ -51,6 +51,7 @@
     const palabras = {
 
       aa: () => voronoi([4,2,9],4,2).modulatePixelate(osc(),0.5).colorama(-0.80),
+      bb: () => sc().modulatePixelate(noise(),0.5).modulate(o0,0.05).colorama(-0.55).add(o0),
       bosque: () => voronoi([4,2,9],4,2).colorama(-0.80),
       paco: () => osc(2, 0.5, 2).colorama(0.1),
       kenya: () => noise(2, 0.5, 2).colorama(-0.9),
