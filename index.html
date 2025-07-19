@@ -58,6 +58,7 @@
       ff: () => osc([5,3,9]).modulatePixelate(noise(),8).mult(osc([10])).scale([0.90].fast(20)).colorama(-0.70),
       gg: () => noise([4,8,2],6,0.5).colorama(0.590).pixelate(10,8).modulateRotate(noise([5,8]),0.9,4),
       hh: () => noise(10,4,10).modulateRepeatX(osc([15,9]),0.5).colorama(-0.590).mult(osc([3],6,0.6)).scale([0.9].fast(205)),
+      ii: () => osc().scale(10).rotate(4,5).kaleid(10).colorama(0.9).modulateScrollX(osc(),0.5).mult(voronoi([5,8],8)).colorama(0.8),
       paco: () => osc(2, 0.5, 2).colorama(0.1),
       kenya: () => noise(2, 0.5, 2).colorama(-0.9),
       fuego: () => noise(6, 0.5, 2).colorama(0.2).modulateScale(o0, 0.8),
