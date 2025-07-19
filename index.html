@@ -64,7 +64,7 @@
       l: () => shape().colorama(0.5).modulatePixelate(osc([9,15,9]),0.5).diff(osc(),0.5).scale().colorama(1).rotate(10,4).scale(4,5),
       m: () => shape().colorama(-0.5).modulatePixelate(osc([9,15,9]),0.5).diff(osc(),0.5).scale().colorama(0.1).rotate(10,4).scale(4,5).pixelate(20.5,4).colorama(0.5),
       n: () => voronoi(36,25,1).colorama(4).luma(0.5).colorama(-0.5),
-      o: () => noise(16,4).scale(1).modulateKaleid(noise([10,5],),0.5).repeat(0.5,2,3,2),
+      o: () => noise(16,4).scale(2).modulateKaleid(noise([1,3,5],),0.5).repeat(0.5,2,3,2),
       paco: () => osc(2, 0.5, 2).colorama(0.1),
       kenya: () => noise(2, 0.5, 2).colorama(-0.9),
       fuego: () => noise(6, 0.5, 2).colorama(0.2).modulateScale(o0, 0.8),
