@@ -52,6 +52,7 @@
 
       aa: () => voronoi([4,2],7,2).modulatePixelate(osc(),0.70,0.5).scale(2).colorama(-0.40),
       bb: () => osc().modulate(noise(),0.25).scale([1,3,6],5).colorama(-0.95),
+      cc: () => noise([10,15,5,1],5,25).modulate(voronoi(1,3,2)).scale(0.3,2,7).kaleid(30).colorama(-0.50),
       paco: () => osc(2, 0.5, 2).colorama(0.1),
       kenya: () => noise(2, 0.5, 2).colorama(-0.9),
       fuego: () => noise(6, 0.5, 2).colorama(0.2).modulateScale(o0, 0.8),
